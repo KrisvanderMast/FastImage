@@ -6,7 +6,12 @@ FastImage is a small tool created by [Kris van der Mast](www.krisvandermast.com)
 
 ## How to use
 
-Start up the application, specify a folder<sup>1</sup> and for reach image shown move it to the allowed subfolders ranging from 0 to 9.
+Start up the application, specify a folder<sup>1</sup> and for reach image shown move it to the allowed subfolders ranging from 0 to 9. If a file with the same name already exists in the subfolder then the filename will be suffixed with a `_Guid` as not to overwrite the already existing image. Currently images with following extensions are shown:
+
+- jpg
+- jpeg
+- gif
+- png
 
 ## Technology
 
